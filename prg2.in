@@ -1,0 +1,5 @@
+int A, B, C
+float D = 2.1
+A = 3 + 5
+B = A * 10 + 3
+C = 5 + A / D + 3

@@ -1,0 +1,6 @@
+Q1) Can you explain why it says Identifier expected, found =? In other words, why identifier
+expected?
+This error occurs when an assingment statement is incomplete, or when there's a typo or missing identifier (variable name). The parser's job is to enforce the syntac rules defined in the BNF, and when the syntax doesn't match the expected pattern (identifier = expression), it triggers this error.
+
+Q2) Why do you think the error message: equal sign expected, found D?
+The error occurs because the parser expects an assignment operator (=) after the Variable D, but instead encounters another symbol, leading to the error message "equal sign expected, found D." The fix is to ensure proper syntax with an equal sign between the variable and its value.
